@@ -10,10 +10,16 @@
     	<aside class="section-gauche">
 
     		<div class="photo">
-    			<img src="photo-cv.jpg" alt="photo CV" height="180px" width="180px"/>
     		</div>
 
     		<h1>Djellali Mathieu</h1>
+
+    		<ul class="nav">
+    			<li class="btn"> <a href="#ancre-projet">Projets</a></li>
+    			<li class="btn"> <a href="#ancre-partenaire">Partenaire</a></li>
+    			<li class="btn"> <a href="#ancre-formulaire">Formulaire</a></li>
+    		</ul>
+
             <h3>Contact</h3>
     		<div class="contact">
     			
@@ -22,7 +28,7 @@
                     <a href="mailto:mathieu.djellali@edu.ece.fr"> mathieu.djellali@edu.ece.fr </a><br>
                     <i class="fa fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/mathieu-djellali-407b0a170"> Mon linkedin</a> <br>
-                    <i class="fa fa-mobile"></i>
+                    <i class="fa fa-phone"></i>
                     <i class="telephone"> 06-61-98-80-01 </i>
                 </p> 
     			
@@ -30,30 +36,38 @@
             <h3>Langues</h3>
     		<div class="langues">
     			<p>
-    			<img src="united-kingdom-flag-round-icon-32.png" alt="drapeau-anglais" width="22px" height="22" />
+    			<img src="img/united-kingdom-flag-round-icon-32.png" alt="drapeau-anglais" width="22px" height="22px" />
     			<i class="anglais">niveau de maitrise B2 </i> <br><br>
-    			<img src="spain-flag-round-icon-32.png" alt="drapeau-espagnol" width="22px" height="22" />
+    			<img src="img/spain-flag-round-icon-32.png" alt="drapeau-espagnol" width="22px" height="22" />
     			<i class="espagnol"> niveau de maitrise B1 </i>
     			</p>
-    			
-    		</div>
-            <h3>hobbies</h3>
+    			 
+    		</div>         
+            
+    		<h3>hobbies</h3>
     		<div class ="hobbies">
-    			
-    			
+    			<img src="https://img.icons8.com/color/48/000000/tennis-ball.png" alt="icone-tennis" width="40px" height="40px">
+    			<img src="https://img.icons8.com/color/48/000000/swimming.png" alt="icone-natation" width="40px" height="40px">
+    			<img src="https://img.icons8.com/small/48/000000/controller.png" alt="icone-jeux" width="40px" height="40px">
+    			<img src="https://img.icons8.com/color/48/000000/film-reel.png">
+    			<img src="https://img.icons8.com/windows/48/000000/punisher.png" alt="icone-punisher" width="40px" height="40px"><br><br><br>
     		</div>
-
-    		<div class="Formulaire">
-    			<h3>Formulaire de contact</h3>
+    		<h3 id="ancre-partenaire"> <span class="texte-video">Partenaire du PPE </span></h3>
+            <i class="video">
+    		<video src="video_pompier.mp4" controls width="280px" height="170px"></video>
+    		</i>
+    		<div class="formulaire-contact">
+    			<h3 id="ancre-formulaire">Formulaire de contact</h3>
 
     			<form method="post" class="formulaire">
-                    <input type="text" class="inputbasic" placeholder="Nom"/>
+                    <input type="text" class="inputbasic texte" placeholder="Nom"/>
                     <input type="email" required="required"  placeholder="Email" class="inputbasic mail"/>
-                    <textarea name="prez" id="commentaire"  rows="8" cols="30" class="inputbasic" placeholder="Entrez un commentaire"></textarea>
+                    <textarea class="inputbasic commentaire" placeholder="Commentaire ..."></textarea>
                     <input type="submit" value="Envoyer"/>
                 </form>
     			
     		</div>
+    		
     		
     	</aside>
        
@@ -75,7 +89,7 @@
     			</section>
 
     			<section class="stages et projets">
-    				<h2><i class="fa fa-pencil" aria-hidden="true"></i>STAGES ET PROJETS</h2>
+    				<h2 id="ancre-projet"><i class="fa fa-pencil" aria-hidden="true"></i>STAGES ET PROJETS</h2>
 
     				<section class="Projet pluridisciplinaire">
     				<p> <span class="titre1"> Projet pluridisciplinaire | </span> <span class="titre1bis" >en cours (7 élèves sur 6 mois) </span> 
