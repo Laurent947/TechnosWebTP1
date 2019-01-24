@@ -2,63 +2,70 @@
 <html>
     <head>
       <meta charset= «utf-8»/>
-      <link rel="stylesheet" href="monCV.css">
+      <link rel="stylesheet" href="monCV.css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <title>Mon CV </title>
     </head>
     <body>
     	<aside class="section-gauche">
 
-    		<h1>Djellali Mathieu</h1>
     		<div class="photo">
-    			<img src="photo-cv.jpg" alt="photo CV" height="150px" width="150px">
-    			
+    			<img src="photo-cv.jpg" alt="photo CV" height="180px" width="180px"/>
     		</div>
 
+    		<h1>Djellali Mathieu</h1>
+            <h3>Contact</h3>
     		<div class="contact">
-    			<h3>Contact</h3>
-    		
+    			
     			<p>
-    				<i class="adresse"> 4 allée Daniel Balavoine -94380 Bonneuil sur Marne </i> <br>
+    				<i class="fa fa-envelope-open-o" aria-hidden="true"></i>
                     <a href="mailto:mathieu.djellali@edu.ece.fr"> mathieu.djellali@edu.ece.fr </a><br>
+                    <i class="fa fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/mathieu-djellali-407b0a170"> Mon linkedin</a> <br>
+                    <i class="fa fa-mobile"></i>
                     <i class="telephone"> 06-61-98-80-01 </i>
                 </p> 
     			
     		</div>
-
+            <h3>Langues</h3>
     		<div class="langues">
-    			<h3>Langues</h3>
-    			 <p>
-    			<i class="anglais">Anglais:  niveau de maitrise B2 </i> <br>
-    			<i class="espagnol"> Espagnol:   niveau de maitrise B1 </i>
-    			</p> 
+    			<p>
+    			<img src="united-kingdom-flag-round-icon-32.png" alt="drapeau-anglais" width="22px" height="22" />
+    			<i class="anglais">niveau de maitrise B2 </i> <br><br>
+    			<img src="spain-flag-round-icon-32.png" alt="drapeau-espagnol" width="22px" height="22" />
+    			<i class="espagnol"> niveau de maitrise B1 </i>
+    			</p>
     			
     		</div>
-
+            <h3>hobbies</h3>
     		<div class ="hobbies">
-    			<h3>hobbies</h3>
-
+    			
     			
     		</div>
 
-    		<div class="Formulaire de contact">
+    		<div class="Formulaire">
     			<h3>Formulaire de contact</h3>
+
+    			<form method="post" class="formulaire">
+                    <input type="text" class="inputbasic" placeholder="Nom"/>
+                    <input type="email" required="required"  placeholder="Email" class="inputbasic mail"/>
+                    <textarea name="prez" id="commentaire"  rows="8" cols="30" class="inputbasic" placeholder="Entrez un commentaire"></textarea>
+                    <input type="submit" value="Envoyer"/>
+                </form>
     			
     		</div>
     		
     	</aside>
-
-    	<div class="header">
-    		<h1>Recherche stage de 4 mois dans le Développement d’Application Web ou Mobile </h1>
-
-    	</div>
-
-    	<p>Etudiant de 21 ans actuellement en école d’ingénieur. Je suis passionné par les technologies innovantes et les méthodes de conception orientées UX. Je recherche actuellement un stage de 4 mois à partir de mi-avril. </p>
        
     	<main>
-    		<article>
+    		<article class="corp">
+
+    		<h1><span class="titre-principal">Recherche stage de 4 mois dans le Développement<br> d’Application Web ou Mobile </span> </h1>
+
+    	    
+    			<p> <span class="courte_description">Etudiant de 21 ans actuellement en école d’ingénieur. Je suis passionné par les technologies innovantes et<br> les méthodes de conception orientées UX. Je recherche actuellement un stage de 4 mois à partir de mi-avril. </span> </p>
     			<section class="competences">
-    				<h2>COMPETENCES</h2>
+    				<h2><i class="fa fa-wrench"></i>COMPETENCES</h2> 
 
     				<ul>
     					<li>Langage de programmation orienté objet: maitrise des bases de programmation en Java et en Python</li>
@@ -68,7 +75,7 @@
     			</section>
 
     			<section class="stages et projets">
-    				<h2>STAGES ET PROJETS</h2>
+    				<h2><i class="fa fa-pencil" aria-hidden="true"></i>STAGES ET PROJETS</h2>
 
     				<section class="Projet pluridisciplinaire">
     				<p> <span class="titre1"> Projet pluridisciplinaire | </span> <span class="titre1bis" >en cours (7 élèves sur 6 mois) </span> 
@@ -115,8 +122,8 @@
     			</section>
 
     			<section class="autre experience">
-    				<h2>AUTRE EXPERIENCE</h2>
-    				<p> <span class="titre1"> Septodont |</span> <span> 1 mois </span>
+    				<h2><i class="fa fa-briefcase" aria-hidden="true"></i>AUTRE EXPERIENCE</h2>
+    				<p> <span class="titre1"> Septodont |</span> <span class="titre1bis" > 1 mois </span>
     				<br> <span class="description"> Opérateur conditionnement Injectables :  </span> </p>
     				<ul>
     				   	<li> Travail en équipe </li>
@@ -125,10 +132,11 @@
                     </ul> 
     				
     			</section>
-
+                
     			<section class="formation">
-    				<h2>FORMATION</h2>
-    				<p> <span class="titre1"> Ecole d’ingénieur |</span> <span>actuellement en deuxième année du cycle d’ingénieur </span>
+    				<h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>FORMATION</h2>
+    				<p>
+    			       <span class="titre1"> Ecole d’ingénieur |</span> <span> actuellement en deuxième année du cycle d’ingénieur </span>
     				   <br> <span class="description"> Objets Connectés, Réseaux et Services  </span>
     				   <br> ECE Paris - Paris</p>
 
